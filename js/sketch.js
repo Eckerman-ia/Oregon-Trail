@@ -19,7 +19,7 @@ let pageManager;
 let playerInput;
 
 function setup() {
-  createCanvas(280 * SETTINGS.scale, 192 * SETTINGS.scale);
+  createCanvas(1366 * SETTINGS.scale, 768 * SETTINGS.scale);
 
   stateManager = new GameStateManager();
 
